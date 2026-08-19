@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio website showcasing profile, education, skills, projects, activities and contact information.">
+    <meta name="author" content="Nishan Fatheh">
+    <meta name="keywords" content="portfolio, student, web programming, projects, skills">
+    <title>Your Name | Personal Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container nav-wrapper">
+            <a class="logo" href="#home">My Portfolio</a>
+            <nav aria-label="Main navigation">
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#cv">CV</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#activities">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+                    <h1>Hello, I'm <span>Nishan Fatheh</span></h1>
+                    <p>
+                        I am a student interested in technology, programming and building
+                        useful digital solutions. This website presents my academic journey,
+                        technical skills, projects and activities.
+                    </p>
+                    <a class="button" href="#contact">Contact Me</a>
+                </div>
+                <div class="profile-photo">
+                    <img src="images/profile.svg" alt="Profile photograph of Your Name">
+                </div>
+            </div>
+        </section>
+
+        <section id="profile" class="section">
+            <div class="container">
+                <h2>Profile</h2>
+                <div class="card">
+                    <p>
+                        I am a B.Tech student with an interest in software development,
+                        web technologies and emerging areas of computing. My goal is to
+                        strengthen my technical knowledge through academic projects,
+                        practical work and continuous learning.
+                    </p>
+                    <div class="two-column">
+                        <article>
+                            <h3>Career Goals</h3>
+                            <p>
+                                To develop strong software engineering skills and work on
+                                meaningful technology projects while continuously improving
+                                my problem-solving abilities.
+                            </p>
+                        </article>
+                        <article>
+                            <h3>Personal Interests</h3>
+                            <ul>
+                                <li>Programming and web development</li>
+                                <li>Learning new technologies</li>
+                                <li>Photography and creative activities</li>
+                                <li>Technology projects</li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cv" class="section alt">
+            <div class="container">
+                <h2>CV</h2>
+                <div class="card">
+                    <h3>Education & Experience</h3>
+                    <div class="table-wrapper">
+                        <table>
+                            <caption>Academic and Professional Summary</caption>
+                            <thead>
+                                <tr>
+                                    <th>Period</th>
+                                    <th>Qualification / Experience</th>
+                                    <th>Institution / Organization</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2024 – Present</td>
+                                    <td>B.Tech</td>
+                                    <td>Rajagiri School of Engineering & Technology</td>
+                                    <td>Artificial Intelligence & Data Science</td>
+                                </tr>
+                                <tr>
+                                    <td>2026</td>
+                                    <td>Internship</td>
+                                    <td>Vaisesika Consulting Pvt. Ltd.</td>
+                                    <td>Backend development using Python and FastAPI</td>
+                                </tr>
+                                <tr>
+                                    <td>2026</td>
+                                    <td>Academic Projects</td>
+                                    <td>RSET</td>
+                                    <td>Web, programming and data-oriented projects</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <h3>Skills</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript</li>
+                        <li>SQL</li>
+                        <li>FastAPI</li>
+                        <li>Git & GitHub</li>
+                    </ul>
+
+                    <h3>Certifications</h3>
+                    <p>Add your certifications here.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <div class="container">
+                <h2>Education & Technical Expertise</h2>
+                <div class="grid-3">
+                    <article class="card">
+                        <h3>Education</h3>
+                        <p><strong>B.Tech</strong></p>
+                        <p>Artificial Intelligence & Data Science</p>
+                        <p>Rajagiri School of Engineering & Technology</p>
+                    </article>
+                    <article class="card">
+                        <h3>Programming</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>C</li>
+                            <li>SQL</li>
+                            <li>HTML & CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>Tools & Technologies</h3>
+                        <ul>
+                            <li>FastAPI</li>
+                            <li>PostgreSQL</li>
+                            <li>SQLAlchemy</li>
+                            <li>Git & GitHub</li>
+                            <li>NumPy / Pandas</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section alt">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <img src="images/project1.svg" alt="Screenshot representing Project 1">
+                        <div class="project-content">
+                            <h3>Job Portal Backend</h3>
+                            <p>
+                                A backend application developed using Python and FastAPI.
+                                It provides APIs for user registration, authentication,
+                                job posting, job searching and application management.
+                            </p>
+                            <p><strong>Technologies:</strong> Python, FastAPI, SQLAlchemy, PostgreSQL</p>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="images/project2.svg" alt="Screenshot representing Project 2">
+                        <div class="project-content">
+                            <h3>Personal Portfolio Website</h3>
+                            <p>
+                                A responsive personal website created using semantic HTML5
+                                and CSS3 to demonstrate web structure, styling, forms,
+                                multimedia and responsive layouts.
+                            </p>
+                            <p><strong>Technologies:</strong> HTML5, CSS3, Flexbox, Grid</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="activities" class="section">
+            <div class="container">
+                <h2>Activities / Gallery</h2>
+                <div class="gallery">
+                    <figure>
+                        <img src="images/activity1.svg" alt="Academic activity">
+                        <figcaption>Academic Activity</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/activity2.svg" alt="Technical activity">
+                        <figcaption>Technical Activity</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/activity3.svg" alt="College activity">
+                        <figcaption>College Activity</figcaption>
+                    </figure>
+                </div>
+
+                <div class="media-card">
+                    <h3>Multimedia</h3>
+                    <p>A sample HTML5 video element is included to satisfy the multimedia requirement.</p>
+                    <video controls preload="metadata">
+                        <source src="images/sample.mp4" type="video/mp4">
+                        Your browser does not support the video element.
+                    </video>
+                    <p class="note">Replace <code>images/sample.mp4</code> with your own video.</p>
+                </div>
+
+                <div class="media-card">
+                    <h3>Location</h3>
+                    <iframe
+                        title="Map location"
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=76.25%2C9.95%2C76.35%2C10.05&amp;layer=mapnik"
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section alt">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="contact-grid">
+                    <div class="card">
+                        <h3>Get in Touch</h3>
+                        <p>Email: <a href="mailto:yourname@example.com">nishannishnaz@gmail.com</a></p>
+                        <p>LinkedIn:
+                            <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+                               nishan fatheh
+                            </a>
+                        </p>
+                    </div>
+
+                    <form class="contact-form card" action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+
+                        <fieldset>
+                            <legend>Reason for contacting</legend>
+                            <label>
+                                <input type="radio" name="reason" value="project" required>
+                                Project
+                            </label>
+                            <label>
+                                <input type="radio" name="reason" value="academic">
+                                Academic
+                            </label>
+                            <label>
+                                <input type="radio" name="reason" value="other">
+                                Other
+                            </label>
+                        </fieldset>
+
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="updates">
+                            I would like to receive updates.
+                        </label>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6"
+                                      placeholder="Write your message..." required></textarea>
+                        </div>
+
+                        <button class="button" type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Nishan Fatheh. All rights reserved.</p>
+            <p>Built with HTML5 and CSS3.</p>
+        </div>
+    </footer>
+</body>
+</html>
